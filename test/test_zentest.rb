@@ -1,4 +1,4 @@
-#!/usr/local/bin/ruby -w
+#!/usr/bin/env ruby -w
 
 abort "rubinius does not support features required by zentest" if
   defined?(RUBY_ENGINE) && RUBY_ENGINE =~ /rbx/
